@@ -1,0 +1,10 @@
+{
+  "start_gold": 500,
+  "start_food": 20,
+  "grid": { "cols": 4, "rows": 3 },
+  "habitat": { "cost": 150, "capacity": 2, "gold_cap": 500 },
+  "farm": { "cost": 100, "crop_cost": 50, "crop_food": 25, "crop_seconds": 20 },
+  "feed": { "base_cost": 5, "growth": 1.5, "max_level": 10 },
+  "level_gold_bonus": 0.25,
+  "breeding": { "min_level": 4, "seconds": 30 }
+}

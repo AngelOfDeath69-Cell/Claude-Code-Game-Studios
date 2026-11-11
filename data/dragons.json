@@ -1,0 +1,30 @@
+{
+  "elements": {
+    "bara":  { "name": "Bara",  "color": "#e8552d" },
+    "arus":  { "name": "Arus",  "color": "#2d9be8" },
+    "rimba": { "name": "Rimba", "color": "#4caf50" },
+    "petir": { "name": "Petir", "color": "#f2c230" }
+  },
+  "dragons": [
+    { "id": "baraka",   "name": "Baraka",   "elements": ["bara"],           "egg_cost": 100, "hatch_seconds": 10, "gold_per_min": 60,
+      "art": { "body": "#e8552d", "belly": "#ffd27a", "wing": "#a8261a", "horns": 2, "spikes": true,  "wing_style": "bat" } },
+    { "id": "tirtana",  "name": "Tirtana",  "elements": ["arus"],           "egg_cost": 100, "hatch_seconds": 10, "gold_per_min": 60,
+      "art": { "body": "#2d9be8", "belly": "#c9f1ff", "wing": "#1a5fa8", "horns": 0, "spikes": false, "wing_style": "fin" } },
+    { "id": "wanara",   "name": "Wanara",   "elements": ["rimba"],          "egg_cost": 120, "hatch_seconds": 10, "gold_per_min": 70,
+      "art": { "body": "#4caf50", "belly": "#e3f7b0", "wing": "#2c6e2f", "horns": 1, "spikes": false, "wing_style": "leaf" } },
+    { "id": "kilatra",  "name": "Kilatra",  "elements": ["petir"],          "egg_cost": 150, "hatch_seconds": 10, "gold_per_min": 80,
+      "art": { "body": "#f2c230", "belly": "#fff6c2", "wing": "#6a4fd1", "horns": 3, "spikes": true,  "wing_style": "bat" } },
+    { "id": "uapra",    "name": "Uapra",    "elements": ["bara", "arus"],   "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 150,
+      "art": { "body": "#b9a7d9", "belly": "#ffffff", "wing": "#e8552d", "horns": 2, "spikes": false, "wing_style": "fin" } },
+    { "id": "arangga",  "name": "Arangga",  "elements": ["bara", "rimba"],  "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 150,
+      "art": { "body": "#5a4a3a", "belly": "#ff9d4d", "wing": "#4caf50", "horns": 2, "spikes": true,  "wing_style": "leaf" } },
+    { "id": "suryakala","name": "Suryakala","elements": ["bara", "petir"],  "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 170,
+      "art": { "body": "#ff8a1f", "belly": "#fff1a8", "wing": "#f2c230", "horns": 3, "spikes": true,  "wing_style": "bat" } },
+    { "id": "lumutra",  "name": "Lumutra",  "elements": ["arus", "rimba"],  "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 150,
+      "art": { "body": "#2bb5a0", "belly": "#d6ffe9", "wing": "#2c6e2f", "horns": 1, "spikes": false, "wing_style": "fin" } },
+    { "id": "badaira",  "name": "Badaira",  "elements": ["arus", "petir"],  "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 170,
+      "art": { "body": "#3f51b5", "belly": "#cfd8ff", "wing": "#f2c230", "horns": 2, "spikes": true,  "wing_style": "bat" } },
+    { "id": "gemuruh",  "name": "Gemuruh",  "elements": ["rimba", "petir"], "egg_cost": 0,   "hatch_seconds": 20, "gold_per_min": 170,
+      "art": { "body": "#9ccc3c", "belly": "#fbffd1", "wing": "#6a4fd1", "horns": 3, "spikes": false, "wing_style": "leaf" } }
+  ]
+}
